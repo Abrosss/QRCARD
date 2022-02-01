@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    background:hsl(212, 45%, 89%);
+    font-family:'Outfit', sans-serif;
+    font-size:1rem;
+    
+  }
+  .full-page{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .main-cont{
+    border-radius:15px;
+    width:380px;
+    background:white;
+    padding-top:1rem;
+  }
+  img{
+    display:block;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+  }
+  .content{
+    padding:0 2.5rem;
+    text-align:center;
+    padding-bottom:2rem;
+  }
+  h1{
+    color:hsl(218, 44%, 22%);
+    font-size:1.6rem;
+    font-weight:700;
+    margin-bottom:0;
+  }
+  p{
+    color:hsl(220, 15%, 55%);
+    font-size:1.2rem;
+    font-weight:400;
+  }
